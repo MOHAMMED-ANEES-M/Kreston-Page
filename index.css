@@ -1,0 +1,192 @@
+
+
+* {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-btn {
+    background-color: #43BBC7 !important;
+    color: white;
+    font-size:small ;
+}
+.main-head1 {
+    font-size: 80px;
+    color:  #189CD8;
+}
+.main-head2 {
+    color:  #43BBC7;
+}
+.main-head3 {
+    font-size: 70px;
+    color:  #43BBC7;
+}
+.main-head4 {
+    color:  #189CD8;
+}
+.main-btn1 {
+    background-image: linear-gradient(to right, #43BBC7, #189CD8);
+}
+.social-links {
+    border-radius: 30%;
+    border: black 1px solid;
+}
+.service-img1 {
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+}
+.service-img2 {
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+}
+.service-img3 {
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+}
+.choose-img {
+    background-image: linear-gradient(to right, #43BBC7, #189CD8);
+    height: 460px;
+}
+.form-div {
+  background-image: linear-gradient(to top, #43BBC7, #189CD8);
+  padding: 100px;
+}
+input {
+  background-color: #F8FAFF;
+  border: none !important;
+}
+textarea {
+  background-color: #F8FAFF;
+  border: none !important;
+}
+.form-btn {
+  background-image: linear-gradient(to right, #43BBC7, #189CD8);
+}
+@media only screen and (max-width: 320px) {
+  .news-row {
+    display: block;
+  }
+  .choose-flex {
+    display: block;
+    flex-wrap: wrap;
+  }
+  footer{
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 481px) {
+  body{
+
+  }
+  .main-head1 {
+      font-size: 60px;
+  }
+
+  .main-head3 {
+      font-size: 50px;
+  }
+
+  .service-img1,
+  .service-img2,
+  .service-img3 {
+      left: 5%;
+  }
+  .service-row {
+    display: block;
+  }
+  .service-row div {
+    width: 100% !important;
+  }
+  .about-flex {
+    display: block !important;
+    width: 100% !important;
+  }
+  .about-flex div {
+    width: 100% !important;
+  }
+  .choose-flex {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .news-row {
+    display: block;
+  }
+  footer{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 641px) {
+  body{
+
+  }
+  .social-links {
+    padding-bottom: 50px !important;
+    margin-right: 10px;
+  }
+  .main-head1 {
+      font-size: 60px;
+  }
+
+  .main-head3 {
+      font-size: 50px;
+  }
+
+  .service-img1,
+  .service-img2,
+  .service-img3 {
+      left: 5%;
+  }
+  .about-flex {
+    display: block !important;
+    width: 100% !important;
+  }
+  .about-flex div {
+    width: 100% !important;
+  }
+  .choose-flex {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .news-row {
+    display: block;
+  }
+  footer{
+    width: 100%;
+  }
+}
+
+
+
+@media only screen and (min-width: 641px) and (max-width: 961px) {
+  body{
+
+  }
+  .choose-flex {
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (min-width: 961px) and (max-width: 1025px) {
+  body{
+
+  }
+
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1281px) {
+  body{
+
+  }
+ 
+}
